@@ -62,4 +62,4 @@ This project is licensed under the  BSD 3-clause license - see the [LICENSE](LIC
 ## Thanks
 
 * @king-phisher(https://github.com/securestate/king-phisher) project for the initial web_cloner
-
+* @Session.js(https://github.com/codejoust/session.js) project for the client side data collection
