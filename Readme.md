@@ -32,16 +32,19 @@ optional arguments:
 ```
 ### How to run the Deceptive web server
 ```
-usage: TrapServer.py [-h] [--webroot-directory WEBROOT_DIRECTORY] --syslog-server
-                SYSLOG_SERVER
+usage: TrapServer.py [-h] [--webroot-directory WEBROOT_DIRECTORY]
+                     [--syslog-server SYSLOG_SERVER]
+                     [--log-file-path LOG_FILE_PATH]
 
 optional arguments:
   -h, --help            show this help message and exit
   --webroot-directory WEBROOT_DIRECTORY, -d WEBROOT_DIRECTORY
-                        The root directory for the HTTP server
+                        root directory for the HTTP server
   --syslog-server SYSLOG_SERVER, -s SYSLOG_SERVER
-                        The syslog server that the deceptive user will report
-                        the request to it
+                        syslog server that the deceptive user will report the
+                        request to it
+  --log-file-path LOG_FILE_PATH, -l LOG_FILE_PATH
+                        access log file path
 ```
 ## Examples
 ### Cloning Wikipedia login page
